@@ -79,9 +79,9 @@ public class Loan {
 		System.out.println("loan status:"+getLoanStatus());
 	}
 	public String toString() {
-		return "id:"+loanId+"\n"+"customer"+customer+"\n"+"amount:"+
-	principalAmount+"\n"+"interestrate"+interestRate+"\n"+"loanterm"+loanTerm+"\n"+
-	"loantype"+loanType+"\n"+"status:"+loanStatus+"\n";
+		return "id: "+loanId+"\n"+"customer: "+customer+"\n"+"amount: "+
+	principalAmount+"\n"+"interestrate: "+interestRate+"\n"+"loanterm: "+loanTerm+"\n"+
+	"loantype: "+loanType+"\n"+"status: "+loanStatus+"\n";
 	}
 
 }
